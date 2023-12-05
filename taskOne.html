@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+
+     <input id="input">
+     <button onclick="sen()" >Click</button>
+     <p id="content"></p>
+
+     <input id="input1" onkeyup="sen1()">
+     <p id="content1"></p> 
+
+  <script>
+             var input=document.getElementById("input")
+             var content=document.getElementById("content")
+            function sen()
+            {
+                
+                content.textContent=input.value
+            }
+
+             var input1=document.getElementById("input1")
+             var content1=document.getElementById("content1")
+              
+             function sen1()
+             {
+                content1.textContent=input1.value
+             }
+
+
+  </script>       
+    
+</body>
+</html>
